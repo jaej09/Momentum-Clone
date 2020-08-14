@@ -1,0 +1,7 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-image: url("./../imgs/everaldo-coelho-2GW4S08kd-8-unsplash.jpg");
+	background-size: cover;
+}
