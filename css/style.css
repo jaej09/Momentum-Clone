@@ -1,7 +1,47 @@
 .wrapper {
 	display: flex;
 	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 	min-height: 100vh;
 	background-image: url("./../imgs/everaldo-coelho-2GW4S08kd-8-unsplash.jpg");
 	background-size: cover;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+.page-header {
+	flex-basis: 20vh;
+	display: flex;
+}
+
+.page-main {
+	flex-basis: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.page-main__time {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-main__time > .text {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-weight: 600;
+	font-size: 150px;
+}
+
+.page-main__user {
+	width: 100%;
+	height: 100%;
+}
+
+.page-footer {
+	display: flex;
+	flex-basis: 20vh;
 }
