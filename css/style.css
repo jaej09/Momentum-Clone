@@ -19,7 +19,7 @@
 	flex-basis: 50vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .page-main__time {
@@ -29,19 +29,43 @@
 }
 
 .page-main__time > .text {
-	width: 100%;
-	height: 100%;
 	text-align: center;
 	font-weight: 600;
 	font-size: 150px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .page-main__user {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-main__user input {
+	font-family: inherit;
 	width: 100%;
-	height: 100%;
+	border: 0;
+	border-bottom: 2px solid #fff;
+	outline: 0;
+	font-size: 1.5rem;
+	color: #fff;
+	padding: 10px 0;
+	background: transparent;
+	transition: border-color 0.2s;
+}
+
+.page-main__user > .greetings {
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .page-footer {
 	display: flex;
 	flex-basis: 20vh;
+}
+
+.is-hidden {
+	display: none;
 }
