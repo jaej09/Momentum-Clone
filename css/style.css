@@ -13,6 +13,12 @@
 .page-header {
 	flex-basis: 10vh;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.weather {
+	font-weight: 400;
 }
 
 .page-main {

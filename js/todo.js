@@ -17,8 +17,6 @@ var Todo = (function() {
 	function paintTodo(text) {
 		var li, span, i;
 
-		console.log(text);
-
 		// <li id="?"></li>
 		li = document.createElement('li');
 		li.innerText = text;
