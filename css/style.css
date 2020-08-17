@@ -1,7 +1,22 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 10 version
+*/
+
 .wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
 	flex-direction: column;
+	-ms-flex-wrap: nowrap;
 	flex-wrap: nowrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
 	min-height: 100vh;
 	background-image: url("./../imgs/everaldo-coelho-2GW4S08kd-8-unsplash.jpg");
@@ -11,9 +26,16 @@
 }
 
 .page-header {
+	-ms-flex-preferred-size: 10vh;
 	flex-basis: 10vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
@@ -22,15 +44,29 @@
 }
 
 .page-main {
+	-ms-flex-preferred-size: 40vh;
 	flex-basis: 40vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
 	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
 }
 
 .page-main__time {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
@@ -43,8 +79,14 @@
 }
 
 .page-main__user {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
@@ -58,6 +100,8 @@
 	color: #fff;
 	padding: 10px 0;
 	background: transparent;
+	-webkit-transition: border-color 0.2s;
+	-o-transition: border-color 0.2s;
 	transition: border-color 0.2s;
 }
 
@@ -68,10 +112,20 @@
 }
 
 .page-footer {
+	-ms-flex-preferred-size: 40vh;
 	flex-basis: 40vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
 	flex-direction: column;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
 	justify-content: flex-start;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
@@ -85,6 +139,8 @@
 	color: #fff;
 	padding: 10px 0;
 	background: transparent;
+	-webkit-transition: border-color 0.2s;
+	-o-transition: border-color 0.2s;
 	transition: border-color 0.2s;
 }
 
